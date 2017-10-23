@@ -21,7 +21,16 @@ c:\data>cd db
 c:\data\db>
 
 ```
-执行后启动mongo.exe即可
+执行后启动mongod.exe，然后启动mongo.exe，即可在命令行中插入数据到数据库
+```
+db.col.insert({title: 'wf-attendance', 
+    description: '这是一个考勤系统',
+    by: 'wffe',
+    url: 'https://github.com/wffe-team/wf-attendance',
+    tags: ['mongodb', 'database', 'NoSQL'],
+    likes: 100
+})
+```
 ### 二、 新建vue项目文件夹
 ##### 1. 命令行下输入以下指令
 ```

@@ -54,3 +54,27 @@ npm run dev
 ```
 #### 2. 参考官网
 * [element-ui官网链接](http://element.eleme.io/#/zh-CN)
+
+# 项目功能
+## 一、 目的
+
+* 提高考勤确认效率
+
+## 二、 技术
+
+* [Vue.js](https://cn.vuejs.org/)
+
+* [Node.js](https://nodejs.org/en/)
+
+* [MongoDB](https://www.mongodb.com/)
+
+## 三、 开发工具
+
+* [VsCode](https://code.visualstudio.com/)
+
+## 四、 功能
+
+* 管理员录入或者删除员工信息（姓名、岗位性质）
+* 管理员录入员工缺勤日期、缺勤类型（请假、年假、调休...）
+* 员工确认时间以及签字
+

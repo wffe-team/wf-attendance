@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # wf-attendance
 考勤系统
 # 环境搭建
@@ -78,3 +79,26 @@ npm run dev
 * 管理员录入员工缺勤日期、缺勤类型（请假、年假、调休...）
 * 员工确认时间以及签字
 
+=======
+# attendance
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+>>>>>>> rebase

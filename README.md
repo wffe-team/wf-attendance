@@ -7,7 +7,7 @@
 * [数据库安装链接](https://www.mongodb.com/download-center?jmp=nav#atlas)
 
 * [robo mongo图形化管理工具安装链接](https://robomongo.org/download)
-#####  2. 安装完成时注意，要自己新建数据目录，并且放在根目录下（如：C:\或者D:\等）
+#####  2. 安装完成时注意，要新建data文件夹，并在data下新建db文件夹，然后放在根目录下（mongodb所在盘的根目录下）
 ```
 
 c:\>mkdir data
@@ -54,6 +54,17 @@ npm run dev
 ```
 #### 2. 参考官网
 * [element-ui官网链接](http://element.eleme.io/#/zh-CN)
+
+#### 3.下载项目并在本地运行
+```
+git clone 项目地址
+
+npm install
+
+npm run build
+
+npm run dev
+```
 
 # 项目功能
 ## 一、 目的

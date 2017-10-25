@@ -55,7 +55,7 @@ npm run dev
 #### 2. 参考官网
 * [element-ui官网链接](http://element.eleme.io/#/zh-CN)
 
-#### 3.下载项目并在本地运行
+### 三、 下载项目并在本地运行
 ```
 git clone 项目地址
 

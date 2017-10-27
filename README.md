@@ -21,7 +21,7 @@ c:\data>cd db
 c:\data\db>
 
 ```
-执行后启动mongod.exe，然后启动mongo.exe，即可在命令行中插入数据到数据库
+##### 3. 执行后启动mongod.exe，然后启动mongo.exe，即可在命令行中插入数据到数据库
 ```
 db.col.insert({title: 'wf-attendance', 
     description: '这是一个考勤系统',

@@ -26,7 +26,7 @@ var absenceLogSchema = new mongoose.Schema(
     {
         id: mongoose.Schema.Types.ObjectId,
         member: String,
-        absenceType:String,
+        absenceTypeValue:String,
         absenceDateRange:String,
         absenceCount:String,
         state:Boolean   

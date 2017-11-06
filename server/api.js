@@ -7,7 +7,7 @@ const router = express.Router();
 router.post('/api/createRecord',(req,res) => {
 	let newRecord = new models.absenceLogs({
         member: req.body.member,
-        absenceType:req.body.absenceType,
+        absenceTypeValue:req.body.absenceTypeValue,
         absenceDateRange:req.body.absenceDateRange,
         absenceCount:req.body.absenceCount,
         state:0 
@@ -18,7 +18,7 @@ router.post('/api/createRecord',(req,res) => {
         if (err) {
             res.json(err);
         } else {
-            res.json(newRecord);
+            res.json(true);
         }
     });
 });

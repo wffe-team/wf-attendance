@@ -23,4 +23,21 @@ router.post('/api/createRecord',(req,res) => {
     });
 });
 
+//获取请假列表
+router.get('/api/getList',(req,res) => {  
+    // 通过模型去查找数据库
+    models.workLogs.find({},(err,data) => {
+        if (err) {
+            res.json(err);
+            console.log(err);
+        } else {
+        	if(!!data){
+        		res.json(data);
+        	}else{
+        		res.json('none');
+        	}
+        }
+    });
+})
+
 module.exports = router;

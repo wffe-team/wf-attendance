@@ -20,6 +20,6 @@ app.get('*', function(req, res) {
     const html = fs.readFileSync(path.resolve(__dirname, '../dist/index.html'), 'utf-8');
     res.send(html);
 });
-// 监听8080端口
+// 监听8085端口
 app.listen(8085);
 console.log('Server up: http://localhost:8085');

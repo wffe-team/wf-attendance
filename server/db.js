@@ -38,6 +38,6 @@ const Models = {
     memberSchema: memberSchema,
     absenceLogSchema: absenceLogSchema,
     members: mongoose.model("members", memberSchema),
-    absenceLogs: mongoose.model("workLogs", absenceLogSchema)
+    workLogs: mongoose.model("workLogs", absenceLogSchema)
 };
 module.exports = Models;

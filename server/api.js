@@ -5,7 +5,7 @@ const router = express.Router();
 
 // 创建请假记录
 router.post('/api/createRecord',(req,res) => {
-	let newRecord = new models.absenceLogs({
+	let newRecord = new models.workLogs({
         member: req.body.member,
         absenceTypeValue:req.body.absenceTypeValue,
         absenceDateRange:req.body.absenceDateRange,

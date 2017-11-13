@@ -1,10 +1,10 @@
 <template>
 <el-row class="attendance">
-  <el-form ref="CreateForm" :model="form" label-width="80px">
-  <el-form-item label="姓名">
-    <el-input v-model="form.member"></el-input>
+  <el-form ref="CreateForm" :model="form" :rules="rules"  label-width="80px">
+  <el-form-item label="姓名" prop="name">
+    <el-input v-model="form.member" placeholder="请输入姓名"></el-input>
   </el-form-item>
-  <el-form-item label="请假类型">
+  <el-form-item label="请假类型" prop="type">
     <el-select v-model="form.absenceTypeValue" placeholder="请选择请假类型" >
       <el-option
         v-for="item in form.absenceType" 
@@ -14,14 +14,14 @@
        </el-option>
     </el-select>
   </el-form-item>
-  <el-form-item label="请假时间">
+  <el-form-item label="请假时间" prop="time"> 
     <el-date-picker
       v-model="form.absenceDateRange"
       type="datetimerange"
-      placeholder="选择时间范围">
+      placeholder="选择时间范围" >
     </el-date-picker>
   </el-form-item>
-  <el-form-item label="请假天数">
+  <el-form-item label="请假天数" prop="day">
     <el-input v-model="form.absenceCount"></el-input>
   </el-form-item>
   <el-form-item>
@@ -41,9 +41,8 @@
           absenceTypeValue:'',
           absenceDateRange: '',
           absenceCount: '',
-          state: '0'
-        },
-        centerDialogVisible: false
+          state: false
+        }
       }
     },
     methods: {

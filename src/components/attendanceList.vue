@@ -38,7 +38,7 @@
             absenceTypeValue: '',
             absenceDateRange: '',
             absenceCount:'',
-            state:''
+            state:false
           }]
         }
       },     

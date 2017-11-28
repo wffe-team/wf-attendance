@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import ElementUI from 'element-ui'
+import 'babel-polyfill'//ie兼容es6
 import 'element-ui/lib/theme-default/index.css'
 import 'element-ui/lib/theme-default/reset.css'
 

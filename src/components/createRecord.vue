@@ -53,7 +53,7 @@
                 let para = Object.assign({}, _this.form);
 	              _this.$http.post('/api/createRecord', para).then((data) => {
                    if(data.data){
-                      _this.$router.push('/attendanceList');
+                      _this.$router.push('/attendanceSummary');
                    }
 	            })
 	        }

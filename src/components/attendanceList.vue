@@ -59,5 +59,8 @@
   <style>
   .el-table{width:1200px;margin:0 auto;}
     .cell{text-align: center;}
+    .new{
+    font-size:12px;
+    }
   </style>
   
